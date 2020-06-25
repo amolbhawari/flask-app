@@ -13,4 +13,6 @@ COPY . /
 
 ENTRYPOINT [ "python3" ]
 
+EXPOSE 5000
+
 CMD [ "routes.py" ]
